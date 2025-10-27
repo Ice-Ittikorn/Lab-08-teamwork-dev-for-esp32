@@ -1,0 +1,8 @@
+dependencies:
+  display:
+    git: https://github.com/Ice-Ittikorn/display.git
+  sensor:
+    git: https://github.com/Suixay1412/components-sensor.git
+  led:
+    git: https://github.com/016Rusneeda/LED.git
+  

@@ -1,0 +1,39 @@
+dependencies:
+  display:
+    component_hash: 
+      f3ea233b3affc3495df0e8932aa463e5bd6b402cb564f7d2c24bef0e900c147e
+    dependencies: []
+    source:
+      git: https://github.com/Ice-Ittikorn/display.git
+      path: .
+      type: git
+    version: 89970cdf5f04bbfac3fbf58974bfdbf1118a31c1
+  idf:
+    source:
+      type: idf
+    version: 6.0.0
+  led:
+    component_hash: 
+      3f804d440b9799e39993bd5bc5e4f37b6240790a110ef0876878b639706b0ab9
+    dependencies: []
+    source:
+      git: https://github.com/016Rusneeda/LED.git
+      path: .
+      type: git
+    version: c41ef8a5b0e87f75ce5ea3cce829bc1fb29d90b4
+  sensor:
+    component_hash: 
+      ceeeb97517a8be6b38420ad0a8f7bdea7e42e747be474d0204f6bd1c6ac43339
+    dependencies: []
+    source:
+      git: https://github.com/Suixay1412/components-sensor.git
+      path: .
+      type: git
+    version: e130b2c89eda4fd378ed220b8e9b1715d07c44fb
+direct_dependencies:
+- display
+- led
+- sensor
+manifest_hash: 0fcb3a3443493b6cd9f0c5a4dad307e9b56d0196e72be518a0ba6973a4000ef7
+target: esp32
+version: 2.0.0
